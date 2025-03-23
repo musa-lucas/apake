@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #002D62, #0078D7);
+    color: white;
+}
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.NavBar h1 {
+    margin: 0;
+}
+.NavBar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.Main h1 {
+    font-size: 42px;
+}
+.Main p {
+    font-size: 18px;
+    max-width: 400px;
+}
+.Main button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0047AB;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Footer {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    color: black;
+}
+.Footer img {
+    margin: 10px;
+    height: 40px;
+}
